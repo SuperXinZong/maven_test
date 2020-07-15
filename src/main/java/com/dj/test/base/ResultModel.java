@@ -7,21 +7,9 @@ import java.io.Serializable;
 /**
  * JSON 统一返回类
  * @param <T> 泛型
- *           dev master dev2
  */
 @Data
 public class ResultModel<T> implements Serializable {
-
-    public void aa() {
-        System.out.println("aa");
-        System.out.println("aa1");
-        System.out.println("aa2");
-    }
-
-	public void bb(){
-		System.out.println("bb");
-		System.out.println("bb1");
-	}
 
 	public ResultModel(){}
 	
