@@ -12,6 +12,12 @@ import java.io.Serializable;
 @Data
 public class ResultModel<T> implements Serializable {
 
+    public void aa() {
+        System.out.println("aa");
+        System.out.println("aa1");
+        System.out.println("aa2");
+    }
+
 	public ResultModel(){}
 	
     private Integer code;
