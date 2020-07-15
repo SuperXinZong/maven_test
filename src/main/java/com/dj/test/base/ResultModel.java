@@ -18,6 +18,11 @@ public class ResultModel<T> implements Serializable {
         System.out.println("aa2");
     }
 
+	public void bb(){
+		System.out.println("bb");
+		System.out.println("bb1");
+	}
+
 	public ResultModel(){}
 	
     private Integer code;
