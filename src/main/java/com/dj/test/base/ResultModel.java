@@ -12,6 +12,11 @@ import java.io.Serializable;
 @Data
 public class ResultModel<T> implements Serializable {
 
+	public void bb(){
+		System.out.println("bb");
+        	System.out.println("bb1");
+	}
+	
 	public ResultModel(){}
 	
     private Integer code;
